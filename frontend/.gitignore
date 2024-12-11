@@ -8,6 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+src/assets/*.png
+src/assets/*.jpg
+src/assets/*.jpeg
+
 dist
 dist-ssr
 *.local

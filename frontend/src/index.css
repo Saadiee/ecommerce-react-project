@@ -4,14 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
-a.active hr{
+a.active hr {
     display: block;
 }
-@media (max-width:640px) {
-    a.active{
+
+@media (max-width: 640px) {
+    a.active {
         background-color: black;
         color: white;
     }
+}
+
+.images-row {
+    scrollbar-width: none; /* Hides the scrollbar */
+    -ms-overflow-style: none;
+}
+
+.images-row::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
 }
 
 .prata-regular {
@@ -20,6 +31,6 @@ a.active hr{
     font-style: normal;
 }
 
-*{
+* {
     font-family: Outfit;
 }
